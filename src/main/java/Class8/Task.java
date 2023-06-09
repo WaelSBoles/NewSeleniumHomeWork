@@ -27,7 +27,7 @@ public class Task extends CommonMethods {
         recruitmentBTN.click();
        WebElement stratDate=driver.findElement(By.xpath("//input[@id='candidateSearch_fromDate']"));
         stratDate.click();
-        
+
         WebElement month=driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
         Select sel=new Select(month);
         sel.selectByVisibleText("Feb");
