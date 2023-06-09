@@ -1,4 +1,11 @@
 package Class7;
+/*login
+click on PIM
+
+from the table choose any ID
+and print out the row number of that id
+
+please make sure that ur code is dynamic enough to cater if another row gets delted , it still prints the row correctly */
 
 import Utils.CommonMethods;
 import org.openqa.selenium.By;
